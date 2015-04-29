@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57B333751AF105D000D74FCB /* MetalMindKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B333741AF105D000D74FCB /* MetalMindKit.framework */; };
 		57D408041AF0F27E00999E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D408031AF0F27E00999E68 /* AppDelegate.swift */; };
 		57D408061AF0F27E00999E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D408051AF0F27E00999E68 /* ViewController.swift */; };
 		57D408091AF0F27E00999E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D408071AF0F27E00999E68 /* Main.storyboard */; };
@@ -17,6 +16,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		57CCCF361AF1737C004C701F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CCCF2F1AF1737C004C701F /* MetalMindKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57D407B31AF0EB1B00999E68;
+			remoteInfo = MetalMindKitiOS;
+		};
+		57CCCF381AF1737C004C701F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CCCF2F1AF1737C004C701F /* MetalMindKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57D407BE1AF0EB1B00999E68;
+			remoteInfo = MetalMindKitiOSTests;
+		};
+		57CCCF3A1AF1737C004C701F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CCCF2F1AF1737C004C701F /* MetalMindKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57D407D41AF0EB6400999E68;
+			remoteInfo = MetalMindKitOSX;
+		};
+		57CCCF3C1AF1737C004C701F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CCCF2F1AF1737C004C701F /* MetalMindKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57D407DE1AF0EB6400999E68;
+			remoteInfo = MetalMindKitOSXTests;
+		};
 		57D408141AF0F27E00999E68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 57D407F61AF0F27E00999E68 /* Project object */;
@@ -27,7 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		57B333741AF105D000D74FCB /* MetalMindKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalMindKit.framework; path = "build/Debug-iphoneos/MetalMindKit.framework"; sourceTree = "<group>"; };
+		57CCCF2F1AF1737C004C701F /* MetalMindKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MetalMindKit.xcodeproj; sourceTree = "<group>"; };
 		57D407FE1AF0F27E00999E68 /* iOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D408021AF0F27E00999E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D408031AF0F27E00999E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57B333751AF105D000D74FCB /* MetalMindKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,13 +85,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57CCCF301AF1737C004C701F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CCCF371AF1737C004C701F /* MetalMindKit.framework */,
+				57CCCF391AF1737C004C701F /* MetalMindKitiOSTests.xctest */,
+				57CCCF3B1AF1737C004C701F /* MetalMindKit.framework */,
+				57CCCF3D1AF1737C004C701F /* MetalMindKitOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		57D407F51AF0F27E00999E68 = {
 			isa = PBXGroup;
 			children = (
 				57D408001AF0F27E00999E68 /* iOSExample */,
 				57D408161AF0F27E00999E68 /* iOSExampleTests */,
 				57D407FF1AF0F27E00999E68 /* Products */,
-				57B333741AF105D000D74FCB /* MetalMindKit.framework */,
+				57CCCF2F1AF1737C004C701F /* MetalMindKit.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,6 +220,12 @@
 			mainGroup = 57D407F51AF0F27E00999E68;
 			productRefGroup = 57D407FF1AF0F27E00999E68 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 57CCCF301AF1737C004C701F /* Products */;
+					ProjectRef = 57CCCF2F1AF1737C004C701F /* MetalMindKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				57D407FD1AF0F27E00999E68 /* iOSExample */,
@@ -190,6 +233,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		57CCCF371AF1737C004C701F /* MetalMindKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MetalMindKit.framework;
+			remoteRef = 57CCCF361AF1737C004C701F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57CCCF391AF1737C004C701F /* MetalMindKitiOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MetalMindKitiOSTests.xctest;
+			remoteRef = 57CCCF381AF1737C004C701F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57CCCF3B1AF1737C004C701F /* MetalMindKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MetalMindKit.framework;
+			remoteRef = 57CCCF3A1AF1737C004C701F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57CCCF3D1AF1737C004C701F /* MetalMindKitOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MetalMindKitOSXTests.xctest;
+			remoteRef = 57CCCF3C1AF1737C004C701F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		57D407FC1AF0F27E00999E68 /* Resources */ = {
