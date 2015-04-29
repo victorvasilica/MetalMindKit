@@ -12,18 +12,53 @@
 		57D408091AF0F27E00999E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D408071AF0F27E00999E68 /* Main.storyboard */; };
 		57D4080B1AF0F27E00999E68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D4080A1AF0F27E00999E68 /* Images.xcassets */; };
 		57D4080E1AF0F27E00999E68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D4080C1AF0F27E00999E68 /* LaunchScreen.xib */; };
-		57D4081A1AF0F27E00999E68 /* iOSExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D408191AF0F27E00999E68 /* iOSExampleTests.swift */; };
+		57F3EB771AF17F040063E4C5 /* MetalMindKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 57F3EB701AF17EFB0063E4C5 /* MetalMindKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		57D408141AF0F27E00999E68 /* PBXContainerItemProxy */ = {
+		57F3EB6F1AF17EFB0063E4C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 57D407F61AF0F27E00999E68 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 57D407FD1AF0F27E00999E68;
-			remoteInfo = iOSExample;
+			containerPortal = 57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57D407B31AF0EB1B00999E68;
+			remoteInfo = MetalMindKitiOS;
+		};
+		57F3EB711AF17EFB0063E4C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57D407BE1AF0EB1B00999E68;
+			remoteInfo = MetalMindKitiOSTests;
+		};
+		57F3EB731AF17EFB0063E4C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57D407D41AF0EB6400999E68;
+			remoteInfo = MetalMindKitOSX;
+		};
+		57F3EB751AF17EFB0063E4C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57D407DE1AF0EB6400999E68;
+			remoteInfo = MetalMindKitOSXTests;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		57F3EB671AF17EDB0063E4C5 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				57F3EB771AF17F040063E4C5 /* MetalMindKit.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		57D407FE1AF0F27E00999E68 /* iOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +68,11 @@
 		57D408081AF0F27E00999E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57D4080A1AF0F27E00999E68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		57D4080D1AF0F27E00999E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		57D408131AF0F27E00999E68 /* iOSExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		57D408181AF0F27E00999E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57D408191AF0F27E00999E68 /* iOSExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExampleTests.swift; sourceTree = "<group>"; };
+		57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MetalMindKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		57D407FB1AF0F27E00999E68 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57D408101AF0F27E00999E68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,8 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				57D408001AF0F27E00999E68 /* iOSExample */,
-				57D408161AF0F27E00999E68 /* iOSExampleTests */,
 				57D407FF1AF0F27E00999E68 /* Products */,
+				57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				57D407FE1AF0F27E00999E68 /* iOSExample.app */,
-				57D408131AF0F27E00999E68 /* iOSExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,21 +120,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		57D408161AF0F27E00999E68 /* iOSExampleTests */ = {
+		57F3EB691AF17EFB0063E4C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57D408191AF0F27E00999E68 /* iOSExampleTests.swift */,
-				57D408171AF0F27E00999E68 /* Supporting Files */,
+				57F3EB701AF17EFB0063E4C5 /* MetalMindKit.framework */,
+				57F3EB721AF17EFB0063E4C5 /* MetalMindKitiOSTests.xctest */,
+				57F3EB741AF17EFB0063E4C5 /* MetalMindKit.framework */,
+				57F3EB761AF17EFB0063E4C5 /* MetalMindKitOSXTests.xctest */,
 			);
-			path = iOSExampleTests;
-			sourceTree = "<group>";
-		};
-		57D408171AF0F27E00999E68 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				57D408181AF0F27E00999E68 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +141,7 @@
 				57D407FA1AF0F27E00999E68 /* Sources */,
 				57D407FB1AF0F27E00999E68 /* Frameworks */,
 				57D407FC1AF0F27E00999E68 /* Resources */,
+				57F3EB671AF17EDB0063E4C5 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,24 +151,6 @@
 			productName = iOSExample;
 			productReference = 57D407FE1AF0F27E00999E68 /* iOSExample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		57D408121AF0F27E00999E68 /* iOSExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 57D408201AF0F27E00999E68 /* Build configuration list for PBXNativeTarget "iOSExampleTests" */;
-			buildPhases = (
-				57D4080F1AF0F27E00999E68 /* Sources */,
-				57D408101AF0F27E00999E68 /* Frameworks */,
-				57D408111AF0F27E00999E68 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				57D408151AF0F27E00999E68 /* PBXTargetDependency */,
-			);
-			name = iOSExampleTests;
-			productName = iOSExampleTests;
-			productReference = 57D408131AF0F27E00999E68 /* iOSExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -161,10 +163,6 @@
 				TargetAttributes = {
 					57D407FD1AF0F27E00999E68 = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					57D408121AF0F27E00999E68 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 57D407FD1AF0F27E00999E68;
 					};
 				};
 			};
@@ -179,13 +177,49 @@
 			mainGroup = 57D407F51AF0F27E00999E68;
 			productRefGroup = 57D407FF1AF0F27E00999E68 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 57F3EB691AF17EFB0063E4C5 /* Products */;
+					ProjectRef = 57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				57D407FD1AF0F27E00999E68 /* iOSExample */,
-				57D408121AF0F27E00999E68 /* iOSExampleTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		57F3EB701AF17EFB0063E4C5 /* MetalMindKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MetalMindKit.framework;
+			remoteRef = 57F3EB6F1AF17EFB0063E4C5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57F3EB721AF17EFB0063E4C5 /* MetalMindKitiOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MetalMindKitiOSTests.xctest;
+			remoteRef = 57F3EB711AF17EFB0063E4C5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57F3EB741AF17EFB0063E4C5 /* MetalMindKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MetalMindKit.framework;
+			remoteRef = 57F3EB731AF17EFB0063E4C5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57F3EB761AF17EFB0063E4C5 /* MetalMindKitOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MetalMindKitOSXTests.xctest;
+			remoteRef = 57F3EB751AF17EFB0063E4C5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		57D407FC1AF0F27E00999E68 /* Resources */ = {
@@ -195,13 +229,6 @@
 				57D408091AF0F27E00999E68 /* Main.storyboard in Resources */,
 				57D4080E1AF0F27E00999E68 /* LaunchScreen.xib in Resources */,
 				57D4080B1AF0F27E00999E68 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57D408111AF0F27E00999E68 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,23 +244,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57D4080F1AF0F27E00999E68 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57D4081A1AF0F27E00999E68 /* iOSExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		57D408151AF0F27E00999E68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 57D407FD1AF0F27E00999E68 /* iOSExample */;
-			targetProxy = 57D408141AF0F27E00999E68 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		57D408071AF0F27E00999E68 /* Main.storyboard */ = {
@@ -340,10 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = iOSExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,47 +362,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = iOSExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		57D408211AF0F27E00999E68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = iOSExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSExample.app/iOSExample";
-			};
-			name = Debug;
-		};
-		57D408221AF0F27E00999E68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = iOSExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSExample.app/iOSExample";
 			};
 			name = Release;
 		};
@@ -415,15 +386,6 @@
 			buildConfigurations = (
 				57D4081E1AF0F27E00999E68 /* Debug */,
 				57D4081F1AF0F27E00999E68 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		57D408201AF0F27E00999E68 /* Build configuration list for PBXNativeTarget "iOSExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				57D408211AF0F27E00999E68 /* Debug */,
-				57D408221AF0F27E00999E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
