@@ -12,45 +12,45 @@
 		57D408091AF0F27E00999E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D408071AF0F27E00999E68 /* Main.storyboard */; };
 		57D4080B1AF0F27E00999E68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D4080A1AF0F27E00999E68 /* Images.xcassets */; };
 		57D4080E1AF0F27E00999E68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D4080C1AF0F27E00999E68 /* LaunchScreen.xib */; };
-		57DD8DBF1AF1807300F6A023 /* MetalMindKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F3EB701AF17EFB0063E4C5 /* MetalMindKit.framework */; };
-		57DD8DC01AF1807300F6A023 /* MetalMindKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57F3EB701AF17EFB0063E4C5 /* MetalMindKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		57DD8DD51AF1817700F6A023 /* MetalMindKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DD8DCE1AF1817100F6A023 /* MetalMindKit.framework */; };
+		57DD8DD61AF1817700F6A023 /* MetalMindKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57DD8DCE1AF1817100F6A023 /* MetalMindKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		57DD8DC11AF1807300F6A023 /* PBXContainerItemProxy */ = {
+		57DD8DCD1AF1817100F6A023 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 57D407B21AF0EB1B00999E68;
-			remoteInfo = MetalMindKitiOS;
-		};
-		57F3EB6F1AF17EFB0063E4C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */;
+			containerPortal = 57DD8DC61AF1817000F6A023 /* MetalMindKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 57D407B31AF0EB1B00999E68;
 			remoteInfo = MetalMindKitiOS;
 		};
-		57F3EB711AF17EFB0063E4C5 /* PBXContainerItemProxy */ = {
+		57DD8DCF1AF1817100F6A023 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */;
+			containerPortal = 57DD8DC61AF1817000F6A023 /* MetalMindKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 57D407BE1AF0EB1B00999E68;
 			remoteInfo = MetalMindKitiOSTests;
 		};
-		57F3EB731AF17EFB0063E4C5 /* PBXContainerItemProxy */ = {
+		57DD8DD11AF1817100F6A023 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */;
+			containerPortal = 57DD8DC61AF1817000F6A023 /* MetalMindKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 57D407D41AF0EB6400999E68;
 			remoteInfo = MetalMindKitOSX;
 		};
-		57F3EB751AF17EFB0063E4C5 /* PBXContainerItemProxy */ = {
+		57DD8DD31AF1817100F6A023 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */;
+			containerPortal = 57DD8DC61AF1817000F6A023 /* MetalMindKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 57D407DE1AF0EB6400999E68;
 			remoteInfo = MetalMindKitOSXTests;
+		};
+		57DD8DD71AF1817700F6A023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57DD8DC61AF1817000F6A023 /* MetalMindKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D407B21AF0EB1B00999E68;
+			remoteInfo = MetalMindKitiOS;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -61,7 +61,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				57DD8DC01AF1807300F6A023 /* MetalMindKit.framework in Embed Frameworks */,
+				57DD8DD61AF1817700F6A023 /* MetalMindKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +76,7 @@
 		57D408081AF0F27E00999E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57D4080A1AF0F27E00999E68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		57D4080D1AF0F27E00999E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MetalMindKit.xcodeproj; sourceTree = "<group>"; };
+		57DD8DC61AF1817000F6A023 /* MetalMindKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MetalMindKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57DD8DBF1AF1807300F6A023 /* MetalMindKit.framework in Frameworks */,
+				57DD8DD51AF1817700F6A023 /* MetalMindKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 			children = (
 				57D408001AF0F27E00999E68 /* iOSExample */,
 				57D407FF1AF0F27E00999E68 /* Products */,
-				57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */,
+				57DD8DC61AF1817000F6A023 /* MetalMindKit.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,13 +129,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		57F3EB691AF17EFB0063E4C5 /* Products */ = {
+		57DD8DC71AF1817000F6A023 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57F3EB701AF17EFB0063E4C5 /* MetalMindKit.framework */,
-				57F3EB721AF17EFB0063E4C5 /* MetalMindKitiOSTests.xctest */,
-				57F3EB741AF17EFB0063E4C5 /* MetalMindKit.framework */,
-				57F3EB761AF17EFB0063E4C5 /* MetalMindKitOSXTests.xctest */,
+				57DD8DCE1AF1817100F6A023 /* MetalMindKit.framework */,
+				57DD8DD01AF1817100F6A023 /* MetalMindKitiOSTests.xctest */,
+				57DD8DD21AF1817100F6A023 /* MetalMindKit.framework */,
+				57DD8DD41AF1817100F6A023 /* MetalMindKitOSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				57DD8DC21AF1807300F6A023 /* PBXTargetDependency */,
+				57DD8DD81AF1817700F6A023 /* PBXTargetDependency */,
 			);
 			name = iOSExample;
 			productName = iOSExample;
@@ -189,8 +189,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 57F3EB691AF17EFB0063E4C5 /* Products */;
-					ProjectRef = 57F3EB681AF17EFB0063E4C5 /* MetalMindKit.xcodeproj */;
+					ProductGroup = 57DD8DC71AF1817000F6A023 /* Products */;
+					ProjectRef = 57DD8DC61AF1817000F6A023 /* MetalMindKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -201,32 +201,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		57F3EB701AF17EFB0063E4C5 /* MetalMindKit.framework */ = {
+		57DD8DCE1AF1817100F6A023 /* MetalMindKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = MetalMindKit.framework;
-			remoteRef = 57F3EB6F1AF17EFB0063E4C5 /* PBXContainerItemProxy */;
+			remoteRef = 57DD8DCD1AF1817100F6A023 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		57F3EB721AF17EFB0063E4C5 /* MetalMindKitiOSTests.xctest */ = {
+		57DD8DD01AF1817100F6A023 /* MetalMindKitiOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = MetalMindKitiOSTests.xctest;
-			remoteRef = 57F3EB711AF17EFB0063E4C5 /* PBXContainerItemProxy */;
+			remoteRef = 57DD8DCF1AF1817100F6A023 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		57F3EB741AF17EFB0063E4C5 /* MetalMindKit.framework */ = {
+		57DD8DD21AF1817100F6A023 /* MetalMindKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = MetalMindKit.framework;
-			remoteRef = 57F3EB731AF17EFB0063E4C5 /* PBXContainerItemProxy */;
+			remoteRef = 57DD8DD11AF1817100F6A023 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		57F3EB761AF17EFB0063E4C5 /* MetalMindKitOSXTests.xctest */ = {
+		57DD8DD41AF1817100F6A023 /* MetalMindKitOSXTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = MetalMindKitOSXTests.xctest;
-			remoteRef = 57F3EB751AF17EFB0063E4C5 /* PBXContainerItemProxy */;
+			remoteRef = 57DD8DD31AF1817100F6A023 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -257,10 +257,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		57DD8DC21AF1807300F6A023 /* PBXTargetDependency */ = {
+		57DD8DD81AF1817700F6A023 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MetalMindKitiOS;
-			targetProxy = 57DD8DC11AF1807300F6A023 /* PBXContainerItemProxy */;
+			targetProxy = 57DD8DD71AF1817700F6A023 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
