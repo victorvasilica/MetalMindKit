@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57B3D55B1AEFEDCC00444659"
+               BlueprintIdentifier = "57D407B21AF0EB1B00999E68"
                BuildableName = "MetalMindKit.framework"
                BlueprintName = "MetalMindKitiOS"
                ReferencedContainer = "container:MetalMindKit.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57B3D5651AEFEDCC00444659"
+               BlueprintIdentifier = "57D407BD1AF0EB1B00999E68"
                BuildableName = "MetalMindKitiOSTests.xctest"
                BlueprintName = "MetalMindKitiOSTests"
                ReferencedContainer = "container:MetalMindKit.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57B3D5651AEFEDCC00444659"
+               BlueprintIdentifier = "57D407BD1AF0EB1B00999E68"
                BuildableName = "MetalMindKitiOSTests.xctest"
                BlueprintName = "MetalMindKitiOSTests"
                ReferencedContainer = "container:MetalMindKit.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B3D55B1AEFEDCC00444659"
+            BlueprintIdentifier = "57D407B21AF0EB1B00999E68"
             BuildableName = "MetalMindKit.framework"
             BlueprintName = "MetalMindKitiOS"
             ReferencedContainer = "container:MetalMindKit.xcodeproj">
@@ -75,7 +75,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B3D55B1AEFEDCC00444659"
+            BlueprintIdentifier = "57D407B21AF0EB1B00999E68"
             BuildableName = "MetalMindKit.framework"
             BlueprintName = "MetalMindKitiOS"
             ReferencedContainer = "container:MetalMindKit.xcodeproj">
@@ -93,7 +93,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B3D55B1AEFEDCC00444659"
+            BlueprintIdentifier = "57D407B21AF0EB1B00999E68"
             BuildableName = "MetalMindKit.framework"
             BlueprintName = "MetalMindKitiOS"
             ReferencedContainer = "container:MetalMindKit.xcodeproj">

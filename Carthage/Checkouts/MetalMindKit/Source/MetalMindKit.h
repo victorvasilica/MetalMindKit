@@ -2,7 +2,7 @@
 //  MetalMindKit.h
 //  MetalMindKit
 //
-//  Created by Victor Vasilica on 4/28/15.
+//  Created by Victor Vasilica on 4/29/15.
 //  Copyright (c) 2015 simple. All rights reserved.
 //
 
