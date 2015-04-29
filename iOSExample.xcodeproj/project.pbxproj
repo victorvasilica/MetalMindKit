@@ -59,7 +59,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 10;
 			files = (
 				57DD8DC01AF1807300F6A023 /* MetalMindKit.framework in Embed Frameworks */,
 			);
