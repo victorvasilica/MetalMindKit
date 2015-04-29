@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571044911AF176EF00EA903A /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B3336E1AF103B800D74FCB /* TestClass.swift */; };
 		57B3336F1AF103B800D74FCB /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B3336E1AF103B800D74FCB /* TestClass.swift */; };
 		57D407BF1AF0EB1B00999E68 /* MetalMindKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D407B31AF0EB1B00999E68 /* MetalMindKit.framework */; };
 		57D407DF1AF0EB6400999E68 /* MetalMindKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D407D41AF0EB6400999E68 /* MetalMindKit.framework */; };
@@ -302,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571044911AF176EF00EA903A /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
