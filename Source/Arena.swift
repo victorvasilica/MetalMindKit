@@ -8,6 +8,8 @@
 
 import Foundation
 
+// MARK: -
+
 /**
     Responsible for interchanging data between players. Prevents `MetalMindPlayer` to step outside the defined bounds.
 */

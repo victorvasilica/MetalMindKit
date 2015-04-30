@@ -8,6 +8,8 @@
 
 import Foundation
 
+// MARK: -
+
 /**
     Responsible for actions, effects and data of the skill.
 */
@@ -16,4 +18,8 @@ public class MetalMindSkill {
     public init() {
         // init skill
     }
+}
+
+extension MetalMindSkill: Printable {
+    public var description: String { return "MetalMindSkill" }
 }

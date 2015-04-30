@@ -8,6 +8,8 @@
 
 import Foundation
 
+// MARK: -
+
 /**
     Responsible for player actions, animations and positioning in the `MetalMindArena`.
 */
