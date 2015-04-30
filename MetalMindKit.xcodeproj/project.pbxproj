@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		571044911AF176EF00EA903A /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B3336E1AF103B800D74FCB /* TestClass.swift */; };
-		57B3336F1AF103B800D74FCB /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B3336E1AF103B800D74FCB /* TestClass.swift */; };
+		57C532E21AF2C4FF00028E0E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E11AF2C4FF00028E0E /* Player.swift */; };
+		57C532E31AF2C4FF00028E0E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E11AF2C4FF00028E0E /* Player.swift */; };
+		57C532E51AF2C55800028E0E /* Arena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E41AF2C55800028E0E /* Arena.swift */; };
+		57C532E61AF2C55800028E0E /* Arena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E41AF2C55800028E0E /* Arena.swift */; };
+		57C532E81AF2C58C00028E0E /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E71AF2C58C00028E0E /* Skill.swift */; };
+		57C532E91AF2C58C00028E0E /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E71AF2C58C00028E0E /* Skill.swift */; };
 		57D407BF1AF0EB1B00999E68 /* MetalMindKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D407B31AF0EB1B00999E68 /* MetalMindKit.framework */; };
 		57D407DF1AF0EB6400999E68 /* MetalMindKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D407D41AF0EB6400999E68 /* MetalMindKit.framework */; };
 		57D407F01AF0EBD500999E68 /* MetalMindKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D407EF1AF0EBBC00999E68 /* MetalMindKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,7 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		57B3336E1AF103B800D74FCB /* TestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		57C532E11AF2C4FF00028E0E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		57C532E41AF2C55800028E0E /* Arena.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arena.swift; sourceTree = "<group>"; };
+		57C532E71AF2C58C00028E0E /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 		57D407B31AF0EB1B00999E68 /* MetalMindKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MetalMindKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D407BE1AF0EB1B00999E68 /* MetalMindKitiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalMindKitiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D407D41AF0EB6400999E68 /* MetalMindKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MetalMindKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,7 +108,9 @@
 			children = (
 				57D407EE1AF0EBBC00999E68 /* Info.plist */,
 				57D407EF1AF0EBBC00999E68 /* MetalMindKit.h */,
-				57B3336E1AF103B800D74FCB /* TestClass.swift */,
+				57C532E11AF2C4FF00028E0E /* Player.swift */,
+				57C532E41AF2C55800028E0E /* Arena.swift */,
+				57C532E71AF2C58C00028E0E /* Skill.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -288,7 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57B3336F1AF103B800D74FCB /* TestClass.swift in Sources */,
+				57C532E81AF2C58C00028E0E /* Skill.swift in Sources */,
+				57C532E21AF2C4FF00028E0E /* Player.swift in Sources */,
+				57C532E51AF2C55800028E0E /* Arena.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +313,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				571044911AF176EF00EA903A /* TestClass.swift in Sources */,
+				57C532E91AF2C58C00028E0E /* Skill.swift in Sources */,
+				57C532E31AF2C4FF00028E0E /* Player.swift in Sources */,
+				57C532E61AF2C55800028E0E /* Arena.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +512,7 @@
 		57D407E81AF0EB6400999E68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -519,12 +532,14 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		57D407E91AF0EB6400999E68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
