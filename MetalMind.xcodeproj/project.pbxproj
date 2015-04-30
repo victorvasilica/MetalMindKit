@@ -21,7 +21,6 @@
 		57D1C68C1AD5535A00609C72 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D1C68B1AD5535A00609C72 /* SpriteKit.framework */; };
 		57D1C6911AD5748300609C72 /* darkknight.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 57D1C6901AD5748300609C72 /* darkknight.atlas */; };
 		57FAF4381AD6625A0044847F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FAF4371AD6625A0044847F /* Images.xcassets */; };
-		57FAF43A1AD665A30044847F /* PlayerStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FAF4391AD665A30044847F /* PlayerStatsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +65,6 @@
 		57D1C68B1AD5535A00609C72 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		57D1C6901AD5748300609C72 /* darkknight.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = darkknight.atlas; sourceTree = "<group>"; };
 		57FAF4371AD6625A0044847F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		57FAF4391AD665A30044847F /* PlayerStatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerStatsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 			children = (
 				57D1C66B1AD52ECF00609C72 /* HomeViewController.swift */,
 				57D1C6891AD54F6B00609C72 /* HomeScene.swift */,
-				57FAF4391AD665A30044847F /* PlayerStatsViewController.swift */,
 				57D1C66D1AD52ECF00609C72 /* Main.storyboard */,
 				57D1C6671AD52ECF00609C72 /* Supporting Files */,
 			);
@@ -285,7 +282,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D1C68A1AD54F6B00609C72 /* HomeScene.swift in Sources */,
-				57FAF43A1AD665A30044847F /* PlayerStatsViewController.swift in Sources */,
 				57D1C66C1AD52ECF00609C72 /* HomeViewController.swift in Sources */,
 				57D1C66A1AD52ECF00609C72 /* AppDelegate.swift in Sources */,
 			);
