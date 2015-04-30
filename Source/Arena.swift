@@ -9,7 +9,7 @@
 import Foundation
 
 /**
-    Responsible for
+    Responsible for interchanging data between players. Prevents `MetalMindPlayer` to step outside the defined bounds.
 */
 public class MetalMindArena {
     
