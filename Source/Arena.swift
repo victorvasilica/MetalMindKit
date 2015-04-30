@@ -8,6 +8,9 @@
 
 import Foundation
 
+/**
+    Responsible for
+*/
 public class MetalMindArena {
     
     public init() {

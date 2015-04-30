@@ -8,6 +8,9 @@
 
 import Foundation
 
+/**
+    Responsible for player actions, animations and positioning in the `MetalMindArena`.
+*/
 public class MetalMindPlayer {
     
     public init() {
