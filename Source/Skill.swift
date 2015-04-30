@@ -9,7 +9,7 @@
 import Foundation
 
 /**
-    Responsible for
+    Responsible for actions, effects and data of the skill.
 */
 public class MetalMindSkill {
     
