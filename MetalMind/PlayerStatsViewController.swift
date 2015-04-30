@@ -11,3 +11,8 @@
 //class PlayerStatsViewController: UIViewController {
 //    
 //}
+
+import MetalMindKit
+
+let t = TestClass()
+
