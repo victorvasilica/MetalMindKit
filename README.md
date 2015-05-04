@@ -1,2 +1,0 @@
-# MetalMind
-Game client
