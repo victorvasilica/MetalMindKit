@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570ADE031AD59CBB009FDC4E /* boyDownWalk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 570ADE021AD59CBB009FDC4E /* boyDownWalk.atlas */; };
+		57C532DB1AF2152400028E0E /* MetalMindKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C532D91AF2151200028E0E /* MetalMindKit.framework */; };
+		57C532DC1AF2152400028E0E /* MetalMindKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57C532D91AF2151200028E0E /* MetalMindKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		57C532DD1AF2152400028E0E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C532D71AF214F100028E0E /* Alamofire.framework */; };
+		57C532DE1AF2152400028E0E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57C532D71AF214F100028E0E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		57D1C66A1AD52ECF00609C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D1C6691AD52ECF00609C72 /* AppDelegate.swift */; };
+		57D1C66C1AD52ECF00609C72 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D1C66B1AD52ECF00609C72 /* HomeViewController.swift */; };
+		57D1C66F1AD52ECF00609C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D1C66D1AD52ECF00609C72 /* Main.storyboard */; };
+		57D1C6741AD52ECF00609C72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D1C6721AD52ECF00609C72 /* LaunchScreen.xib */; };
+		57D1C6801AD52ECF00609C72 /* MetalMindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D1C67F1AD52ECF00609C72 /* MetalMindTests.swift */; };
+		57D1C68A1AD54F6B00609C72 /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D1C6891AD54F6B00609C72 /* HomeScene.swift */; };
+		57D1C68C1AD5535A00609C72 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D1C68B1AD5535A00609C72 /* SpriteKit.framework */; };
+		57D1C6911AD5748300609C72 /* darkknight.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 57D1C6901AD5748300609C72 /* darkknight.atlas */; };
+		57FAF4381AD6625A0044847F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FAF4371AD6625A0044847F /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57D1C67A1AD52ECF00609C72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D1C65C1AD52ECF00609C72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D1C6631AD52ECF00609C72;
+			remoteInfo = MetalMind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		57C532DF1AF2152400028E0E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				57C532DC1AF2152400028E0E /* MetalMindKit.framework in Embed Frameworks */,
+				57C532DE1AF2152400028E0E /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		570ADE021AD59CBB009FDC4E /* boyDownWalk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = boyDownWalk.atlas; sourceTree = "<group>"; };
+		57C532D71AF214F100028E0E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		57C532D91AF2151200028E0E /* MetalMindKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalMindKit.framework; path = Carthage/Build/iOS/MetalMindKit.framework; sourceTree = "<group>"; };
+		57D1C6641AD52ECF00609C72 /* MetalMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D1C6681AD52ECF00609C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D1C6691AD52ECF00609C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57D1C66B1AD52ECF00609C72 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		57D1C66E1AD52ECF00609C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57D1C6731AD52ECF00609C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		57D1C6791AD52ECF00609C72 /* MetalMindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D1C67E1AD52ECF00609C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D1C67F1AD52ECF00609C72 /* MetalMindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalMindTests.swift; sourceTree = "<group>"; };
+		57D1C6891AD54F6B00609C72 /* HomeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
+		57D1C68B1AD5535A00609C72 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		57D1C6901AD5748300609C72 /* darkknight.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = darkknight.atlas; sourceTree = "<group>"; };
+		57FAF4371AD6625A0044847F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57D1C6611AD52ECF00609C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D1C68C1AD5535A00609C72 /* SpriteKit.framework in Frameworks */,
+				57C532DD1AF2152400028E0E /* Alamofire.framework in Frameworks */,
+				57C532DB1AF2152400028E0E /* MetalMindKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D1C6761AD52ECF00609C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57D1C65B1AD52ECF00609C72 = {
+			isa = PBXGroup;
+			children = (
+				57D1C6661AD52ECF00609C72 /* MetalMind */,
+				57D1C67C1AD52ECF00609C72 /* MetalMindTests */,
+				57D1C6651AD52ECF00609C72 /* Products */,
+				57D1C68D1AD5536D00609C72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57D1C6651AD52ECF00609C72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D1C6641AD52ECF00609C72 /* MetalMind.app */,
+				57D1C6791AD52ECF00609C72 /* MetalMindTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D1C6661AD52ECF00609C72 /* MetalMind */ = {
+			isa = PBXGroup;
+			children = (
+				57D1C66B1AD52ECF00609C72 /* HomeViewController.swift */,
+				57D1C6891AD54F6B00609C72 /* HomeScene.swift */,
+				57D1C66D1AD52ECF00609C72 /* Main.storyboard */,
+				57D1C6671AD52ECF00609C72 /* Supporting Files */,
+			);
+			path = MetalMind;
+			sourceTree = "<group>";
+		};
+		57D1C6671AD52ECF00609C72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57D1C6691AD52ECF00609C72 /* AppDelegate.swift */,
+				57FAF4371AD6625A0044847F /* Images.xcassets */,
+				570ADE021AD59CBB009FDC4E /* boyDownWalk.atlas */,
+				57D1C6901AD5748300609C72 /* darkknight.atlas */,
+				57D1C6721AD52ECF00609C72 /* LaunchScreen.xib */,
+				57D1C6681AD52ECF00609C72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57D1C67C1AD52ECF00609C72 /* MetalMindTests */ = {
+			isa = PBXGroup;
+			children = (
+				57D1C67F1AD52ECF00609C72 /* MetalMindTests.swift */,
+				57D1C67D1AD52ECF00609C72 /* Supporting Files */,
+			);
+			path = MetalMindTests;
+			sourceTree = "<group>";
+		};
+		57D1C67D1AD52ECF00609C72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57D1C67E1AD52ECF00609C72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57D1C68D1AD5536D00609C72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57C532D91AF2151200028E0E /* MetalMindKit.framework */,
+				57C532D71AF214F100028E0E /* Alamofire.framework */,
+				57D1C68B1AD5535A00609C72 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57D1C6631AD52ECF00609C72 /* MetalMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D1C6831AD52ECF00609C72 /* Build configuration list for PBXNativeTarget "MetalMind" */;
+			buildPhases = (
+				57D1C6601AD52ECF00609C72 /* Sources */,
+				57D1C6611AD52ECF00609C72 /* Frameworks */,
+				57D1C6621AD52ECF00609C72 /* Resources */,
+				57F590651AF11ECD002C5718 /* Run Script - Carthage config */,
+				57C532DF1AF2152400028E0E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalMind;
+			productName = MetalMind;
+			productReference = 57D1C6641AD52ECF00609C72 /* MetalMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57D1C6781AD52ECF00609C72 /* MetalMindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D1C6861AD52ECF00609C72 /* Build configuration list for PBXNativeTarget "MetalMindTests" */;
+			buildPhases = (
+				57D1C6751AD52ECF00609C72 /* Sources */,
+				57D1C6761AD52ECF00609C72 /* Frameworks */,
+				57D1C6771AD52ECF00609C72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D1C67B1AD52ECF00609C72 /* PBXTargetDependency */,
+			);
+			name = MetalMindTests;
+			productName = MetalMindTests;
+			productReference = 57D1C6791AD52ECF00609C72 /* MetalMindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57D1C65C1AD52ECF00609C72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = simple;
+				TargetAttributes = {
+					57D1C6631AD52ECF00609C72 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					57D1C6781AD52ECF00609C72 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 57D1C6631AD52ECF00609C72;
+					};
+				};
+			};
+			buildConfigurationList = 57D1C65F1AD52ECF00609C72 /* Build configuration list for PBXProject "MetalMind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57D1C65B1AD52ECF00609C72;
+			productRefGroup = 57D1C6651AD52ECF00609C72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D1C6631AD52ECF00609C72 /* MetalMind */,
+				57D1C6781AD52ECF00609C72 /* MetalMindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57D1C6621AD52ECF00609C72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D1C66F1AD52ECF00609C72 /* Main.storyboard in Resources */,
+				57FAF4381AD6625A0044847F /* Images.xcassets in Resources */,
+				570ADE031AD59CBB009FDC4E /* boyDownWalk.atlas in Resources */,
+				57D1C6911AD5748300609C72 /* darkknight.atlas in Resources */,
+				57D1C6741AD52ECF00609C72 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D1C6771AD52ECF00609C72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57F590651AF11ECD002C5718 /* Run Script - Carthage config */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/MetalMindKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			name = "Run Script - Carthage config";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57D1C6601AD52ECF00609C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D1C68A1AD54F6B00609C72 /* HomeScene.swift in Sources */,
+				57D1C66C1AD52ECF00609C72 /* HomeViewController.swift in Sources */,
+				57D1C66A1AD52ECF00609C72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D1C6751AD52ECF00609C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D1C6801AD52ECF00609C72 /* MetalMindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57D1C67B1AD52ECF00609C72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D1C6631AD52ECF00609C72 /* MetalMind */;
+			targetProxy = 57D1C67A1AD52ECF00609C72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57D1C66D1AD52ECF00609C72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D1C66E1AD52ECF00609C72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57D1C6721AD52ECF00609C72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D1C6731AD52ECF00609C72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57D1C6811AD52ECF00609C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57D1C6821AD52ECF00609C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57D1C6841AD52ECF00609C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MetalMind-bdbteizicutjivaaxwitgoqemmts/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)Kit/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MetalMind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57D1C6851AD52ECF00609C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MetalMind-bdbteizicutjivaaxwitgoqemmts/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)Kit/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MetalMind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57D1C6871AD52ECF00609C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MetalMindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalMind.app/MetalMind";
+			};
+			name = Debug;
+		};
+		57D1C6881AD52ECF00609C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MetalMindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalMind.app/MetalMind";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57D1C65F1AD52ECF00609C72 /* Build configuration list for PBXProject "MetalMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D1C6811AD52ECF00609C72 /* Debug */,
+				57D1C6821AD52ECF00609C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D1C6831AD52ECF00609C72 /* Build configuration list for PBXNativeTarget "MetalMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D1C6841AD52ECF00609C72 /* Debug */,
+				57D1C6851AD52ECF00609C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D1C6861AD52ECF00609C72 /* Build configuration list for PBXNativeTarget "MetalMindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D1C6871AD52ECF00609C72 /* Debug */,
+				57D1C6881AD52ECF00609C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57D1C65C1AD52ECF00609C72 /* Project object */;
+}
