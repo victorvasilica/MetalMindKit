@@ -7,9 +7,9 @@
 //
 
 import SpriteKit
+import MetalMindKit
 
 class HomeScene: SKScene {
-
     
     let playerWalkAnimationAtlas = SKTextureAtlas(named: "boyDownWalk")
     lazy var playerWalkFrames: [SKTexture] = {
@@ -37,7 +37,7 @@ class HomeScene: SKScene {
         backgroundImage.position = CGPointMake(size.width/2, size.height/2 - 40.0)
         
 
-        let playerWalkAction = SKAction.animateWithTextures(playerWalkFrames, timePerFrame: 0.5)
+        let playerWalkAction = SKAction.animateWithTextures(playerWalkFrames, timePerFrame: 0.3)
         player.runAction(SKAction.repeatActionForever(playerWalkAction))
         
         self.backgroundColor = SKColor.whiteColor()
