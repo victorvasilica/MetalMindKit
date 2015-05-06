@@ -253,8 +253,8 @@
 			projectRoot = "";
 			targets = (
 				57D407B21AF0EB1B00999E68 /* MetalMindKitiOS */,
-				57D407BD1AF0EB1B00999E68 /* MetalMindKitiOSTests */,
 				57D407D31AF0EB6400999E68 /* MetalMindKitOSX */,
+				57D407BD1AF0EB1B00999E68 /* MetalMindKitiOSTests */,
 				57D407DD1AF0EB6400999E68 /* MetalMindKitOSXTests */,
 			);
 		};
