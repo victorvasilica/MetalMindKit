@@ -11,11 +11,10 @@ Pod::Spec.new do |s|
   s.name             = "MetalMindKit"
   s.version          = "0.1-alpha.1"
   s.summary          = "Framework for metal mind game iOS"
-  s.description      = "Framework for metal mind game iOS"
+  s.license          = "None"
   s.homepage         = "https://github.com/s-i-m-p-l-e/MetalMindKit"
-  s.license          = ' '
   s.author           = { "s-i-m-p-l-e" => "vasilica.victor@gmail.com" }
-  s.source           = { :git => "git@github.com:s-i-m-p-l-e/MetalMindKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/s-i-m-p-l-e/MetalMindKit.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.osx.deployment_target = '10.9'
