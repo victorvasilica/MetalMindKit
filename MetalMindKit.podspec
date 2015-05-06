@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MetalMindKit"
-  s.version          = "0.1-alpha.0"
+  s.version          = "0.1-alpha.1"
   s.summary          = "Framework for metal mind game iOS"
   s.description      = "Framework for metal mind game iOS"
   s.homepage         = "https://github.com/s-i-m-p-l-e/MetalMindKit"
