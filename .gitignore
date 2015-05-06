@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b010995bab1b5cffb727f373dad35a46868e9cf1
 # Created by https://www.gitignore.io
 
 ### OSX ###
@@ -73,14 +77,6 @@ DerivedData
 #
 # Pods/
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
-
-Carthage/Build
-
-
 ### Vim ###
 [._]*.s[a-w][a-z]
 [._]s[a-w][a-z]
@@ -88,10 +84,3 @@ Carthage/Build
 Session.vim
 .netrwhist
 *~
-
-# Created by https://www.gitignore.io
-
-### Carthage ###
-# Carthage - A simple, decentralized dependency manager for Cocoa
-Carthage.checkout
-Carthage.build
