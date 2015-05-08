@@ -13,13 +13,13 @@ import Foundation
 /**
     Responsible for actions, effects and data of the skill.
 */
-public class MetalMindSkill {
+public class MMSkill {
     
     public init() {
         // init skill
     }
 }
 
-extension MetalMindSkill: Printable {
+extension MMSkill: Printable {
     public var description: String { return "MetalMindSkill" }
 }

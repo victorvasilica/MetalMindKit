@@ -1,5 +1,5 @@
 //
-//  Player.swift
+//  Arena.swift
 //  MetalMindKit
 //
 //  Created by Victor Vasilica on 4/30/15.
@@ -11,11 +11,11 @@ import Foundation
 // MARK: -
 
 /**
-    Responsible for player actions, animations and positioning in the `MetalMindArena`.
+    Responsible for interchanging data between players. Prevents `MMPlayer` to step outside the defined bounds.
 */
-public class MetalMindPlayer {
+public class MMArena {
     
     public init() {
-        // init player
+        // init arena
     }
 }

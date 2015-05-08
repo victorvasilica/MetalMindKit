@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57C532E21AF2C4FF00028E0E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E11AF2C4FF00028E0E /* Player.swift */; };
-		57C532E31AF2C4FF00028E0E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E11AF2C4FF00028E0E /* Player.swift */; };
-		57C532E51AF2C55800028E0E /* Arena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E41AF2C55800028E0E /* Arena.swift */; };
-		57C532E61AF2C55800028E0E /* Arena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E41AF2C55800028E0E /* Arena.swift */; };
-		57C532E81AF2C58C00028E0E /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E71AF2C58C00028E0E /* Skill.swift */; };
-		57C532E91AF2C58C00028E0E /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E71AF2C58C00028E0E /* Skill.swift */; };
+		5746DFAA1AFCCFE4001C30F0 /* MMDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746DFA91AFCCFE4001C30F0 /* MMDefault.swift */; };
+		5746DFAB1AFCCFE4001C30F0 /* MMDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746DFA91AFCCFE4001C30F0 /* MMDefault.swift */; };
+		57C532E21AF2C4FF00028E0E /* MMPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E11AF2C4FF00028E0E /* MMPlayer.swift */; };
+		57C532E31AF2C4FF00028E0E /* MMPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E11AF2C4FF00028E0E /* MMPlayer.swift */; };
+		57C532E51AF2C55800028E0E /* MMArena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E41AF2C55800028E0E /* MMArena.swift */; };
+		57C532E61AF2C55800028E0E /* MMArena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E41AF2C55800028E0E /* MMArena.swift */; };
+		57C532E81AF2C58C00028E0E /* MMSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E71AF2C58C00028E0E /* MMSkill.swift */; };
+		57C532E91AF2C58C00028E0E /* MMSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C532E71AF2C58C00028E0E /* MMSkill.swift */; };
 		57D407BF1AF0EB1B00999E68 /* MetalMindKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D407B31AF0EB1B00999E68 /* MetalMindKit.framework */; };
 		57D407DF1AF0EB6400999E68 /* MetalMindKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D407D41AF0EB6400999E68 /* MetalMindKit.framework */; };
 		57D407F01AF0EBD500999E68 /* MetalMindKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D407EF1AF0EBBC00999E68 /* MetalMindKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		57C532E11AF2C4FF00028E0E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		57C532E41AF2C55800028E0E /* Arena.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arena.swift; sourceTree = "<group>"; };
-		57C532E71AF2C58C00028E0E /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		5746DFA91AFCCFE4001C30F0 /* MMDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMDefault.swift; sourceTree = "<group>"; };
+		57C532E11AF2C4FF00028E0E /* MMPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMPlayer.swift; sourceTree = "<group>"; };
+		57C532E41AF2C55800028E0E /* MMArena.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMArena.swift; sourceTree = "<group>"; };
+		57C532E71AF2C58C00028E0E /* MMSkill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMSkill.swift; sourceTree = "<group>"; };
 		57D407B31AF0EB1B00999E68 /* MetalMindKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MetalMindKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D407BE1AF0EB1B00999E68 /* MetalMindKitiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalMindKitiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D407D41AF0EB6400999E68 /* MetalMindKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MetalMindKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,9 +111,10 @@
 			children = (
 				57D407EE1AF0EBBC00999E68 /* Info.plist */,
 				57D407EF1AF0EBBC00999E68 /* MetalMindKit.h */,
-				57C532E11AF2C4FF00028E0E /* Player.swift */,
-				57C532E41AF2C55800028E0E /* Arena.swift */,
-				57C532E71AF2C58C00028E0E /* Skill.swift */,
+				57C532E11AF2C4FF00028E0E /* MMPlayer.swift */,
+				57C532E41AF2C55800028E0E /* MMArena.swift */,
+				57C532E71AF2C58C00028E0E /* MMSkill.swift */,
+				5746DFA91AFCCFE4001C30F0 /* MMDefault.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -296,9 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C532E81AF2C58C00028E0E /* Skill.swift in Sources */,
-				57C532E21AF2C4FF00028E0E /* Player.swift in Sources */,
-				57C532E51AF2C55800028E0E /* Arena.swift in Sources */,
+				57C532E81AF2C58C00028E0E /* MMSkill.swift in Sources */,
+				5746DFAA1AFCCFE4001C30F0 /* MMDefault.swift in Sources */,
+				57C532E21AF2C4FF00028E0E /* MMPlayer.swift in Sources */,
+				57C532E51AF2C55800028E0E /* MMArena.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,9 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C532E91AF2C58C00028E0E /* Skill.swift in Sources */,
-				57C532E31AF2C4FF00028E0E /* Player.swift in Sources */,
-				57C532E61AF2C55800028E0E /* Arena.swift in Sources */,
+				57C532E91AF2C58C00028E0E /* MMSkill.swift in Sources */,
+				5746DFAB1AFCCFE4001C30F0 /* MMDefault.swift in Sources */,
+				57C532E31AF2C4FF00028E0E /* MMPlayer.swift in Sources */,
+				57C532E61AF2C55800028E0E /* MMArena.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
