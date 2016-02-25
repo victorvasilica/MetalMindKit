@@ -1,2 +1,2 @@
 # MetalMindKit
-Frame for metal mind game
+Framework for metal mind game
